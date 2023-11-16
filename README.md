@@ -1,1 +1,1 @@
-# odin-landing-page
+This project is for practicing CSS layout
