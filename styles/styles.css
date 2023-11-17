@@ -6,17 +6,39 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1f2937;
+}
+
+.inner {
+    display: flex;
+    flex: 0 1 1200px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
     font-size: 24px;
+    color: #f9f1f8
 }
 
-header ul {
+.inner ul {
     display: flex;
     list-style-type: none;
-    padding: none;
-    gap: 20px;
+    padding: 0;
+    gap: 30px;
+}
+
+.inner a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
