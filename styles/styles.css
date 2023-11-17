@@ -10,6 +10,11 @@ body {
     margin: 0;
 }
 
+.inner {
+    display: flex;
+    flex: 0 1 1200px;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -18,9 +23,7 @@ header {
     background-color: #1f2937;
 }
 
-.inner {
-    display: flex;
-    flex: 0 1 1200px;
+header .inner {
     justify-content: space-between;
     align-items: center;
 }
