@@ -126,8 +126,9 @@ main {
 
 .page-2 {
     display: flex;
+    min-width: 100vw;
+    min-height: 450px;
     justify-content: center;
-    align-items: center;
 }
 
 .page-2 .inner {
@@ -136,4 +137,13 @@ main {
 
 .page-2 .images {
     display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.page-2 h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
 }
