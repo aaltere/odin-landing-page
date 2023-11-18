@@ -63,3 +63,57 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
+/*
+ * Declaration for page 1
+ */
+
+.page-1 {
+    display: flex;
+    background-color: #1f2937;
+    min-width: 100vw;
+    min-height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    gap: 200px;
+}
+
+.page-1 .text {
+    flex: 3;
+}
+
+.page-1 img {
+    flex: 4;
+}
+
+.page-1 h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.page-1 p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.page-1 button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+}
+
+.page-1 img {
+    min-height: 200px;
+    min-width: 200px;
+    background-color: rgba(200, 200, 200, 0.5);
+}
