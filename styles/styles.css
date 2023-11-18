@@ -119,3 +119,21 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+/*
+ * Declarations for page 2
+ */
+
+.page-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-2 .inner {
+    flex-direction: column;
+}
+
+.page-2 .images {
+    display: flex;
+}
