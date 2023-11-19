@@ -137,8 +137,9 @@ main {
 
 .page-2 .images {
     display: flex;
-    gap: 50px;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
 .page-2 h2 {
@@ -146,4 +147,25 @@ main {
     font-weight: 800;
     color: #1f2937;
     text-align: center;
+}
+
+.page-2 .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.page-2 .img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.page-2 p {
+    text-align: center;
+    font-size: 18px;
+    color: #494949;
 }
