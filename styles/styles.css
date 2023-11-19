@@ -169,3 +169,37 @@ main {
     font-size: 18px;
     color: #494949;
 }
+
+/*
+ * Declarations for page 3
+ */
+
+.page-3 {
+    display: flex;
+    min-width: 100vw;
+    min-height: 450px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.page-3 .inner {
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 900px;
+}
+
+.page-3 blockquote {
+    margin: 0;
+}
+
+.page-3 .inner > p {
+    text-align: right;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937
+}
