@@ -203,3 +203,51 @@ main {
     font-weight: 800;
     color: #1f2937
 }
+
+/*
+ * Declarations for page 4
+ */
+
+.page-4 {
+    display: flex;
+    min-width: 100vw;
+    min-height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-4 .inner {
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    gap: 250px;
+    min-height: 150px;
+}
+
+.page-4 h2,
+.page-4 p {
+    margin: 0;
+}
+
+.page-4 h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.page-4 p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.page-4 button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+}
