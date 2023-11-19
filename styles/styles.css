@@ -251,3 +251,27 @@ main {
     height: 30px;
     cursor: pointer;
 }
+
+/*
+ * Declartions for footer
+ */
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 150px;
+}
+
+footer .inner {
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+}
